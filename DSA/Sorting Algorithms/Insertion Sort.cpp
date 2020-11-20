@@ -10,35 +10,48 @@
 */
 
 #include<stdio.h>
+
+// Functions
+
+void print_array(int arr[],int low,int high)
+{
+	for(int i=low;i<high;i++)
+	printf("%d ",arr[i]);
+	printf("\n");
+}
+
+void insertionSort(int arr[],int n)
+{
+	for(int i=1;i<n;i++)
+	{
+		int j=i-1;
+		int key=arr[i];
+		while(arr[j]>key && j>=0)
+		{
+			arr[j+1]=arr[j];
+			j--;
+		}
+		arr[j+1]=key;
+	}
+}
+
 int main()
 {
 	int n;
 	scanf("%d",&n);
-	int a[n];
+	int arr[n];
 	for(int i=0;i<n;i++)
-	scanf("%d",&a[i]);
+	scanf("%d",&arr[i]);
 	
-	printf("Iutput :");
-	for(int i=0;i<n;i++)
-	printf("%d ",a[i]);
-	printf("\n");
+	//Input
+	printf("Iutput : ");
+	print_array(arr,0,n);
 	
-	// algo
-	for(int i=1;i<n;i++)
-	{
-		int j=i-1;
-		int key=a[i];
-		while(a[j]>key)
-		{
-			a[j+1]=a[j];
-			j--;
-		}
-		a[j+1]=key;
-	}
+	insertionSort(arr,n);
 	
+	//Output
+	printf("Output : ");
+	print_array(arr,0,n);
 	
-	printf("Output :");
-	for(int i=0;i<n;i++)
-	printf("%d ",a[i]);
 }
 
