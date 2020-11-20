@@ -6,7 +6,7 @@
  Algortihm is quite simple . Just use a while loop inside a for loop. for loop iterates from 0-n prices and while loop breaks when a previous element becomes more than price element
  
  Time Complexity : O(n2)
- Worst Case : O(n2)
+ Worst Case : O(n2) Best Case : O(n2)
 */
 
 #include<stdio.h>
