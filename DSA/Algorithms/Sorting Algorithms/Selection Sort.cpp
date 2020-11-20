@@ -20,36 +20,45 @@ void swap_values(int *a,int *b)
     *b = temp; 
 }
 
-int main()
+void selectionSort(int arr[],int n)
 {
-	int n;
-	scanf("%d",&n);
-	int a[n];
-	for(int i=0;i<n;i++)
-	scanf("%d",&a[i]);
-	
-	printf("Iutput :");
-	for(int i=0;i<n;i++)
-	printf("%d ",a[i]);
-	printf("\n");	
-		
-	// algo
 	for(int i=0;i<n;i++)
 	{
 		int index =i;
 		for(int j=i+1;j<n;j++)
 		{
-			if(a[index]>a[j])
+			if(arr[index]>arr[j])
 			{
 				index=j;
 			}
 		}
-		swap_values(&a[index],&a[i]);
+		swap_values(&arr[index],&arr[i]);
 	}
-	
-	
-	printf("Output :");
+}
+
+void print_array(int arr[],int low,int high)
+{
+	for(int i=low;i<high;i++)
+	printf("%d ",arr[i]);
+	printf("\n");
+}
+
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	int arr[n];
 	for(int i=0;i<n;i++)
-	printf("%d ",a[i]);
+	scanf("%d",&arr[i]);
+	
+	//Input
+	printf("Iutput : ");
+	print_array(arr,0,n);
+	
+	selectionSort(arr,n);
+	
+	//Output
+	printf("Output : ");
+	print_array(arr,0,n);
 }
 

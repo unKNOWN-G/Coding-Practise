@@ -1,3 +1,4 @@
+
 /*
  19-11-2020 18:58
  Bubble Sort
@@ -21,32 +22,40 @@ void swap_values(int *a,int *b)
 	*a=*b;
 	*b=temp;
 }
-int main()
+
+void bubbleSort(int arr[],int n)
 {
-	int n;
-	scanf("%d",&n);
-	int a[n];
-	for(int i=0;i<n;i++)
-	scanf("%d",&a[i]);
-	
-	printf("Iutput :");
-	for(int i=0;i<n;i++)
-	printf("%d ",a[i]);
-	printf("\n");
-	
-	// algo
 	for(int i=0;i<n;i++)
 	{
 		for(int j=0;j<n-i-1;j++)
 		{
-			if(a[j]>a[j+1])
-			swap_values(&a[j],&a[j+1]);
+			if(arr[j]>arr[j+1])
+			swap_values(&arr[j],&arr[j+1]);
 		}
 	}
-	
-	
-	printf("Output :");
+}
+void print_array(int arr[],int low,int high)
+{
+	for(int i=low;i<high;i++)
+	printf("%d ",arr[i]);
+	printf("\n");
+}
+int main()
+{
+	int n;
+	scanf("%d",&n);
+	int arr[n];
 	for(int i=0;i<n;i++)
-	printf("%d ",a[i]);
+	scanf("%d",&arr[i]);
+	
+	//Input
+	printf("Iutput : ");
+	print_array(arr,0,n);
+	
+	bubbleSort(arr,n);
+	
+	//Output
+	printf("Output : ");
+	print_array(arr,0,n);	
 }
  
