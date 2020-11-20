@@ -1,6 +1,6 @@
 // Here coding file tells about the questions that i solved and felt good the questions are not realtd to any particulat topic kind of
 
 26-10-2020	:	1	Running Sum of 1d Array 
-19-11-2020	:	3	Sorting Algorithms (Selection, Insertion,Bubble)
-20-11-2020	:	2	Stock Span(Array),Sorting Algorithms(Quick Sort)
+19-11-2020	:	3	Sorting Algorithms (Selection, Insertion,Bubble),Weak Concepts Revision (Pointers)
+20-11-2020	:	3	Stock Span-Array,Sorting Algorithms(Quick Sort),Arrays(Array Briefing,Array Rotation)
 			
