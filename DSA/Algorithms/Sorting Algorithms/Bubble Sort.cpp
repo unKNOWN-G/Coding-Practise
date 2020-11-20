@@ -13,7 +13,6 @@
 #include<stdio.h>
 
 // Functions
-// Swap function
 
 void swap_values(int *a,int *b)
 {
