@@ -2,5 +2,5 @@
 
 26-10-2020	:	1	Running Sum of 1d Array 
 19-11-2020	:	3	Sorting Algorithms (Selection, Insertion,Bubble)
-20-11-2020	:	1	Stock Span(Array),Sorting Algorithms(
+20-11-2020	:	1	Stock Span(Array),Sorting Algorithms(Quick Sort)
 			
