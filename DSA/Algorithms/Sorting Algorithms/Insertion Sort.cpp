@@ -44,7 +44,7 @@ int main()
 	scanf("%d",&arr[i]);
 	
 	//Input
-	printf("Iutput : ");
+	printf("Input : ");
 	print_array(arr,0,n);
 	
 	insertionSort(arr,n);
