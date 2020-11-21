@@ -5,7 +5,7 @@
  The Algorithm is Simple. It involves 2steps.Firstly Partition by arranging smaller elements to left of pivot and then repitatively do this for subarrays
  
  Time Complexity : O(nlogn) ---(Base 2)
- Worst Case: O(nlogn) BestCase : O(n)
+ Worst Case: O(n2) BestCase : O(nlogn)
 */
 
 // Just By Chnaging the arr[j]<pivot to arr[j]> pivot we get descending order
