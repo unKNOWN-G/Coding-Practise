@@ -61,7 +61,7 @@ int main()
 	scanf("%d",&arr[i]);
 	
 	//Input
-	printf("Iutput : ");
+	printf("Input : ");
 	print_array(arr,0,n);
 	
 	quickSort(arr,0,n-1);
