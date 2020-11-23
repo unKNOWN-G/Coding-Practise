@@ -3,4 +3,5 @@
 26-10-2020	:	1	Running Sum of 1d Array 
 19-11-2020	:	3	Sorting Algorithms (Selection, Insertion,Bubble),Weak Concepts Revision (Pointers)
 20-11-2020	:	4	Stock Span-Array,Sorting Algorithms(Quick Sort),Arrays(Array Briefing,Array Rotation,Array Rotation Using Reversal)
-21-11-2020	:	5	Sorting Algorithms (Merge,Counting,Comb),Linked Lists(Brief Description,Insertion)			
+21-11-2020	:	5	Sorting Algorithms (Merge,Counting,Comb),Linked Lists(Brief Description,Insertion)
+22-11-2020	:	3	CodeChef(NovemberCookoff Contest 2020)(Chef and IPC Certificates, Flip the String, Hiring Workers)			
