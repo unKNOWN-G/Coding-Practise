@@ -5,3 +5,5 @@
 20-11-2020	:	4	Stock Span-Array,Sorting Algorithms(Quick Sort),Arrays(Array Briefing,Array Rotation,Array Rotation Using Reversal)
 21-11-2020	:	5	Sorting Algorithms (Merge,Counting,Comb),Linked Lists(Brief Description,Insertion)
 22-11-2020	:	3	CodeChef(NovemberCookoff Contest 2020)(Chef and IPC Certificates, Flip the String, Hiring Workers)			
+23-11-2020	:	0	None(No Laptop)
+24-11-2020	:	0	Nonce yet
