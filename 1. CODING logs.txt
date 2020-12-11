@@ -7,3 +7,9 @@
 22-11-2020	:	3	CodeChef(NovemberCookoff Contest 2020)(Chef and IPC Certificates, Flip the String, Hiring Workers)			
 23-11-2020	:	0	None(No Laptop)
 24-11-2020	:	0	None yet
+.
+.
+.
+.
+.
+12-12-2020	:	1	A small Leet Code Compeitive Question
