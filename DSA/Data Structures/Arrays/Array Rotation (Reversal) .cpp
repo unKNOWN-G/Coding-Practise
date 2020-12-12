@@ -3,6 +3,7 @@
  Array Rotation using Reversal Algorithm
  
  The Algorithm followed is this:
+ The reversal of an array is done using swapping 0 with n-1th elment,1st with n-2 element,...
  Reverse A to get ArB, where Ar is reverse of A.
  Reverse B to get ArBr, where Br is reverse of B.
  Reverse all to get (ArBr) r = BA.
