@@ -1,18 +1,18 @@
-/*
+Given an array A[] and a number x, check for p/*
  12-12-2020 11:10
  Binary Search 
  
- This alogorithm works in a sorted array
+ This algorithm works in a sorted array
  Let us consider the element to be searched as x. The logic followed is we first find the mid element in array and find 
  if arr[mid]==x : return mid
  if arr[mid]>x : Search in subarray array(low,mid-1)
  if arr[mid]<x : Seach in subarray array(mid+1,high)
  Here just keep in mind that high and low arent always 0,n-1. They are only in iter 1 
  
- Time complexity : O(logn)
- Worst Case : O(logn) Best Case : O(1)
+ Time complexity: O(logn)
+ Worst Case: O(logn) Best Case: O(1)
  
- If we have repitative numbers the it returns the first most encountered index from left
+ If we have repetitive numbers it returns the first most encountered index from left
 */
 
 #include<stdio.h>
@@ -61,4 +61,4 @@ int main()
 	else
 	printf("Oops! The number isn't in the array :(");
 
-}
+}air in A[] with sum as x
