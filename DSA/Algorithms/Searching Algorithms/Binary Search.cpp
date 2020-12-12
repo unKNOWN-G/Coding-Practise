@@ -1,4 +1,4 @@
-Given an array A[] and a number x, check for p/*
+/*
  12-12-2020 11:10
  Binary Search 
  
