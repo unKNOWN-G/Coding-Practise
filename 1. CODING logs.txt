@@ -14,4 +14,4 @@
 .
 11-12-2020	:	1	A small Leet Code Compeitive Question
 12-12-2020	:	6	Searching Algorithms(Linear Search,Binary Search),Searching algos(Searching in rotated Sorted array),Array(Finding Pivot in roatated array),Algorithms(Sorted Sum Pair, Rotated Sorted Sum Pair)
-13-12-2020	:	3	Linked Lists(Deletion),trees(Introduction,Basic Functions)
+13-12-2020	:	4,2	Linked Lists(Deletion),trees(Introduction,Basic Functions,traversals),Headerfiles(tree_functions,traversals)
