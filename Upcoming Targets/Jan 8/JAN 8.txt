@@ -1,0 +1,2 @@
+DS	:	Arrays,Strings,Hashing
+Algos	:	DP,Time Complexity Analysis,Searching,Sorting
