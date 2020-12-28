@@ -19,7 +19,7 @@
 
 int binarySearch(int arr[],int low,int high,int key)
 {
-	if(low<high)
+	if(low<=high)
 	{
 		int mid=low+(high-low)/2;
 		if(arr[mid]==key)
@@ -61,4 +61,4 @@ int main()
 	else
 	printf("Oops! The number isn't in the array :(");
 
-}air in A[] with sum as x
+}
