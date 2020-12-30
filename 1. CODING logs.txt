@@ -15,4 +15,7 @@
 11-12-2020	:	1	A small Leet Code Compeitive Question
 12-12-2020	:	6	Searching Algorithms(Linear Search,Binary Search),Searching algos(Searching in rotated Sorted array),Array(Finding Pivot in roatated array),Algorithms(Sorted Sum Pair, Rotated Sorted Sum Pair)
 13-12-2020	:	4,2	Linked Lists(Deletion),trees(Introduction,Basic Functions,traversals),Headerfiles(tree_functions,traversals)
-14-12-2020	:	1	Sorting algos revision	
+28-12-2020	:	2	Sorting algos revision,Searching algortihms Practice
+29-12-2020	:	2	Hackkerank(2D Array -DS, Left Rotation)
+30-12-2020	:	2	Hackkerank(New Year Chaos,Array Manuplation)
+	
