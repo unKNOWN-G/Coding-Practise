@@ -66,6 +66,3 @@ int main()
     // printf("%d ",a[i]);
     printf("%d",sum);
 }
-
- 
- 
