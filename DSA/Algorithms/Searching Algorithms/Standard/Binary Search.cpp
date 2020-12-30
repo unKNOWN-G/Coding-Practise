@@ -54,7 +54,7 @@ int main()
 	printf("Input : ");
 	print_array(arr,0,n);
 
-	int index=binarySearch(arr,0,n,key);
+	int index=binarySearch(arr,0,n-1,key);
 	
 	if(index!=-1)
 	printf("The number %d is found at the index %d",key,index);
