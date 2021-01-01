@@ -31,11 +31,13 @@ node *create_leftNode(int data,struct node *root)
 {
 	struct node *q=createNode(data);
 	root->left=q;
+	return q;
 }
 
 node *create_rightNode(int data,struct node *root)
 {
 	struct node *q=createNode(data);
 	root->right=q;
+	return q;
 }
 
