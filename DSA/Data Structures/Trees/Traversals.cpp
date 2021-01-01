@@ -9,7 +9,7 @@
 */
 
 #include<stdio.h>
-#include "Headers/Tree Basic Functions.h"
+#include "Headers/tree_functions.h"
 
 void preorder(struct node *node)
 {
