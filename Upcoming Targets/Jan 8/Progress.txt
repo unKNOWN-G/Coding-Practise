@@ -1,1 +1,2 @@
-DS	:	Arrays
+DS	:	Arrays, Strings, 
+Algos	:	Searching, Sorting,
