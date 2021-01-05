@@ -1,7 +1,7 @@
 
 /*
  19-11-2020 18:58
- Bubble Sort
+ Interview Preparation kit -> Sorting -> Bubble Sort
  
  Algorithm is so simple.start from a[0:n] Just swap adjacent numbers "if number on left is higher than the right number".
  Now Repeat the procedure from a[1:n] and so on
