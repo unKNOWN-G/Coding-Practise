@@ -1,3 +1,22 @@
+/*
+ 16:12 03-01-2021
+ January Challenge 2021 Division 3 -> Chef and ants
+ 
+ Find number of collisions 
+ 
+ The logic that i followed is find how many are negativ,positive
+ And i found by math that the number of collisions = min(postive_count,negative_count)[positive_count+negative_count-min(positive_count,negative_count)]
+ This is found using analysis of cases 
+ negative-1,positive-n, when then collide n collisions happen and last ball gets thrown out from both sides
+ negative-2,positive-n, when they collide n collision happen whn first ball strikes and the out ball goes out on right side similarly the outer balls goes on left side i.e negative side too
+ And the case of negative -1 and positive- n-1 repeats
+ Similary extending this to negative-a,positive-b
+ ["b"-1+"a"]+["b-1"-1+"a-1"]+.........until left or right becomes 0
+ =min(a,b)[a+b]-[1+3+...]
+ =min(a,b)[a+b]-min(a,b)^2
+ =min(a,b)[a+b-min(a,b)]
+*/
+ 
 #include <stdio.h>
 #include<stdlib.h>
 long min(long a,long b)
