@@ -23,4 +23,6 @@
 .
 .
 05-01-2021	:	3	Hackkerank(Sorting Bubble Sort,Mark and Toys,Fraudulent Activity Notifications)
+06-01-2021	:	11	Dynamic Programing(Fibonanic-recurssion, memorization, bottomup, bottomup_memory efficient, matrix, formula , Triple Step- Recurrsion, Memorization, Bottom Up, Robot in a grid),LeetCode(Unique paths)	
+07-01-2021	:	2	Dynamic Programing(MagicIndex_Binary Search, Power set)
 	
