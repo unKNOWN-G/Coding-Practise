@@ -26,4 +26,3 @@
 06-01-2021	:	11	Dynamic Programing(Fibonanic-recurssion, memorization, bottomup, bottomup_memory efficient, matrix, formula , Triple Step- Recurrsion, Memorization, Bottom Up, Robot in a grid),LeetCode(Unique paths)	
 07-01-2021	:	2	Dynamic Programing(MagicIndex_Binary Search, Power set)
 08-01-2021	:	11	Dynamic Programming(Ugly_numbers), Language Proficiency/C++(Conditional_and_Jump_Statements, Data_Types, Exceeding_Range_of_Built-in_Data_types, Functions, Hello_World_&&_IO_Stream, Loops, Operators, Storage_Classes, Strings, Switch)
-	
