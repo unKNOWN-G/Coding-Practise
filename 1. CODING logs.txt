@@ -30,3 +30,7 @@
 10-01-2021	:	4	Dynamic Programming(LCS_rescussion, LCS_bottomup, Edit_Distance), Arrays(Rotate Right)
 11-01-2021	:	1	LeetCode(Unique Paths II)
 12-01-2021	:	3	Dynamc Programming(Kadene's Algorithm), LeetCode(53. Maximum Subarray, 121. Best Time to Buy and Sell Stock)
+.
+.
+.
+27-01-2021	:	6	Language Proficiency/C++(Multidimentional array, pair, vector, list, stack, queue)
