@@ -34,3 +34,7 @@
 .
 .
 27-01-2021	:	6	Language Proficiency/C++(Multidimentional array, pair, vector, list, stack, queue)
+.
+.
+.
+19-02-2021	:	4	Dynamic Programming(Tilling problem using recurrsion and bottomup , Cutting a rod using rcurrsion and bottom up approach)
