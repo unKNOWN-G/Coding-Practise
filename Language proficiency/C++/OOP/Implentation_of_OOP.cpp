@@ -41,6 +41,10 @@
  		bool cough;
  		bool fever;
  		bool cold;
+ 		string getsecret()
+ 		{
+ 			return "Private";
+		 }
  		covid_symptoms(int a,string b,bool c,bool d,bool e)
  		{
  			age=a;
