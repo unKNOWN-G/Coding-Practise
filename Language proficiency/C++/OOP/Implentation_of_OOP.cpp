@@ -10,7 +10,7 @@
  
  class human{
  	
- 	private:
+ 	private:											// Encapsulation
  		int salary;
  		string secret;
  	
@@ -36,7 +36,7 @@
 		}
  };
  
- class covid_symptoms:public human{
+ class covid_symptoms:public human{							// Inheritance
  	public:
  		bool cough;
  		bool fever;
@@ -45,12 +45,12 @@
  		{
  			return "Private";
 		 }
- 		covid_symptoms(int a,string b,bool c,bool d,bool e)
+ 		covid_symptoms(int a,string b,bool c,bool d,bool e)   // Constructor
  		{
  			age=a;
  			name=b;
  			cold=c;
- 			fever=d;
+ 			fever=d;											
  			cough=e;
 		 }
  };
