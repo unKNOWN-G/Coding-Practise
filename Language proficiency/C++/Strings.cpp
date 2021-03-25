@@ -23,7 +23,7 @@ int main()
 {
 	string str1("first String");
 		
-	string str1_1(str1,0,5); // Means that str2 stored 5 charecters from 0 index in str1
+	string str1_1(str1,0,5); // Means that str1_1 stored 5 charecters from 0 index in str1
 	string str2("Second String");
 	
 	cout<<"String 1 = "<<str1<<endl<<"String 2 = "<<str2<<endl<<"Length = "<<str1.length()<<endl<<"Element at index 3 = "<<str1.at(3)<<endl;
