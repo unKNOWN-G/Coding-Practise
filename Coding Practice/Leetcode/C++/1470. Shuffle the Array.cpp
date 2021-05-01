@@ -10,4 +10,4 @@ public:
         }
         return ping;
     }
-};
+};      
