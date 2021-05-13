@@ -8,4 +8,3 @@ class Solution:
                 num-=1
             count+=1
         return count
-        
